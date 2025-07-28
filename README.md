@@ -20,3 +20,11 @@
 </div>
 
 ---
+@keyframes neonPulse {
+  0% {
+    text-shadow: 0 0 5px #f0f, 0 0 10px #f0f;
+  }
+  100% {
+    text-shadow: 0 0 20px #f0f, 0 0 30px #f0f, 0 0 40px #ff00ff, 0 0 70px #ff00ff;
+  }
+}
